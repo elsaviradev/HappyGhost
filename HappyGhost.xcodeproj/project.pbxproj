@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B5D26C32C02E14A00C04F68 /* HappyGhostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26C22C02E14A00C04F68 /* HappyGhostApp.swift */; };
+		3B5D26C52C02E14A00C04F68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26C42C02E14A00C04F68 /* ContentView.swift */; };
+		3B5D26C72C02E14B00C04F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D26C62C02E14B00C04F68 /* Assets.xcassets */; };
+		3B5D26CA2C02E14B00C04F68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D26C92C02E14B00C04F68 /* Preview Assets.xcassets */; };
+		3B5D26D02C02E14B00C04F68 /* HappyGhost Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3B5D26CF2C02E14B00C04F68 /* HappyGhost Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B5D26D52C02E14B00C04F68 /* HappyGhostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26D42C02E14B00C04F68 /* HappyGhostApp.swift */; };
+		3B5D26D72C02E14B00C04F68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26D62C02E14B00C04F68 /* ContentView.swift */; };
+		3B5D26D92C02E14C00C04F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D26D82C02E14C00C04F68 /* Assets.xcassets */; };
+		3B5D26DC2C02E14C00C04F68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D26DB2C02E14C00C04F68 /* Preview Assets.xcassets */; };
+		3B5D26E72C02E28600C04F68 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26E62C02E28600C04F68 /* SplashScreen.swift */; };
+		3B5D26E92C02E2B400C04F68 /* ReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26E82C02E2B400C04F68 /* ReadyView.swift */; };
+		3B5D26EB2C02E2F500C04F68 /* LocateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26EA2C02E2F500C04F68 /* LocateView.swift */; };
+		3B5D26ED2C02E33500C04F68 /* CatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26EC2C02E33500C04F68 /* CatchView.swift */; };
+		3B5D26EF2C02E35C00C04F68 /* UserWon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26EE2C02E35C00C04F68 /* UserWon.swift */; };
+		3B5D26F12C02E3A900C04F68 /* UserLose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26F02C02E3A900C04F68 /* UserLose.swift */; };
+		3B5D26F32C02E44000C04F68 /* IBeaconDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26F22C02E44000C04F68 /* IBeaconDetector.swift */; };
+		3B5D26F52C02E47900C04F68 /* LocateHPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26F42C02E47900C04F68 /* LocateHPView.swift */; };
+		3B5D26F72C02E49B00C04F68 /* CatchHPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26F62C02E49B00C04F68 /* CatchHPView.swift */; };
+		3B5D26F92C02E7F400C04F68 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D26F82C02E7F400C04F68 /* info.plist */; };
+		3B5D26FC2C02E9C600C04F68 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5D26FB2C02E9C600C04F68 /* WatchConnectivity.framework */; };
+		3B5D26FD2C02E9EE00C04F68 /* LocateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26EA2C02E2F500C04F68 /* LocateView.swift */; };
+		3B5D26FE2C02E9EE00C04F68 /* CatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26EC2C02E33500C04F68 /* CatchView.swift */; };
+		3B5D26FF2C02E9EE00C04F68 /* UserWon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26EE2C02E35C00C04F68 /* UserWon.swift */; };
+		3B5D27002C02E9EE00C04F68 /* UserLose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D26F02C02E3A900C04F68 /* UserLose.swift */; };
+		3B5D27022C02EB9000C04F68 /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D27012C02EB9000C04F68 /* WatchConnector.swift */; };
+		3B5D27042C02ECD700C04F68 /* WatchToiOSConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D27032C02ECD700C04F68 /* WatchToiOSConnector.swift */; };
+		3B5D27062C02ED7900C04F68 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5D27052C02ED7900C04F68 /* WatchConnectivity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B5D26D12C02E14B00C04F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5D26B72C02E14A00C04F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B5D26CE2C02E14B00C04F68;
+			remoteInfo = "HappyGhost Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B5D26E22C02E14C00C04F68 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3B5D26D02C02E14B00C04F68 /* HappyGhost Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B5D26BF2C02E14A00C04F68 /* HappyGhost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyGhost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5D26C22C02E14A00C04F68 /* HappyGhostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyGhostApp.swift; sourceTree = "<group>"; };
+		3B5D26C42C02E14A00C04F68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B5D26C62C02E14B00C04F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B5D26C92C02E14B00C04F68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B5D26CF2C02E14B00C04F68 /* HappyGhost Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HappyGhost Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5D26D42C02E14B00C04F68 /* HappyGhostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyGhostApp.swift; sourceTree = "<group>"; };
+		3B5D26D62C02E14B00C04F68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B5D26D82C02E14C00C04F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B5D26DB2C02E14C00C04F68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B5D26E62C02E28600C04F68 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		3B5D26E82C02E2B400C04F68 /* ReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyView.swift; sourceTree = "<group>"; };
+		3B5D26EA2C02E2F500C04F68 /* LocateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateView.swift; sourceTree = "<group>"; };
+		3B5D26EC2C02E33500C04F68 /* CatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchView.swift; sourceTree = "<group>"; };
+		3B5D26EE2C02E35C00C04F68 /* UserWon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWon.swift; sourceTree = "<group>"; };
+		3B5D26F02C02E3A900C04F68 /* UserLose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLose.swift; sourceTree = "<group>"; };
+		3B5D26F22C02E44000C04F68 /* IBeaconDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBeaconDetector.swift; sourceTree = "<group>"; };
+		3B5D26F42C02E47900C04F68 /* LocateHPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateHPView.swift; sourceTree = "<group>"; };
+		3B5D26F62C02E49B00C04F68 /* CatchHPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchHPView.swift; sourceTree = "<group>"; };
+		3B5D26F82C02E7F400C04F68 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		3B5D26FB2C02E9C600C04F68 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		3B5D27012C02EB9000C04F68 /* WatchConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
+		3B5D27032C02ECD700C04F68 /* WatchToiOSConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchToiOSConnector.swift; sourceTree = "<group>"; };
+		3B5D27052C02ED7900C04F68 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B5D26BC2C02E14A00C04F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5D26FC2C02E9C600C04F68 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5D26CC2C02E14B00C04F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5D27062C02ED7900C04F68 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B5D26B62C02E14A00C04F68 = {
+			isa = PBXGroup;
+			children = (
+				3B5D26C12C02E14A00C04F68 /* HappyGhost */,
+				3B5D26D32C02E14B00C04F68 /* HappyGhost Watch App */,
+				3B5D26C02C02E14A00C04F68 /* Products */,
+				3B5D26FA2C02E9C600C04F68 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B5D26C02C02E14A00C04F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D26BF2C02E14A00C04F68 /* HappyGhost.app */,
+				3B5D26CF2C02E14B00C04F68 /* HappyGhost Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B5D26C12C02E14A00C04F68 /* HappyGhost */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D26F82C02E7F400C04F68 /* info.plist */,
+				3B5D26C22C02E14A00C04F68 /* HappyGhostApp.swift */,
+				3B5D26C42C02E14A00C04F68 /* ContentView.swift */,
+				3B5D26F22C02E44000C04F68 /* IBeaconDetector.swift */,
+				3B5D26F42C02E47900C04F68 /* LocateHPView.swift */,
+				3B5D26F62C02E49B00C04F68 /* CatchHPView.swift */,
+				3B5D27012C02EB9000C04F68 /* WatchConnector.swift */,
+				3B5D26C62C02E14B00C04F68 /* Assets.xcassets */,
+				3B5D26C82C02E14B00C04F68 /* Preview Content */,
+			);
+			path = HappyGhost;
+			sourceTree = "<group>";
+		};
+		3B5D26C82C02E14B00C04F68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D26C92C02E14B00C04F68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B5D26D32C02E14B00C04F68 /* HappyGhost Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D26D42C02E14B00C04F68 /* HappyGhostApp.swift */,
+				3B5D26D62C02E14B00C04F68 /* ContentView.swift */,
+				3B5D26E62C02E28600C04F68 /* SplashScreen.swift */,
+				3B5D26E82C02E2B400C04F68 /* ReadyView.swift */,
+				3B5D26EA2C02E2F500C04F68 /* LocateView.swift */,
+				3B5D26EC2C02E33500C04F68 /* CatchView.swift */,
+				3B5D26EE2C02E35C00C04F68 /* UserWon.swift */,
+				3B5D26F02C02E3A900C04F68 /* UserLose.swift */,
+				3B5D27032C02ECD700C04F68 /* WatchToiOSConnector.swift */,
+				3B5D26D82C02E14C00C04F68 /* Assets.xcassets */,
+				3B5D26DA2C02E14C00C04F68 /* Preview Content */,
+			);
+			path = "HappyGhost Watch App";
+			sourceTree = "<group>";
+		};
+		3B5D26DA2C02E14C00C04F68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D26DB2C02E14C00C04F68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B5D26FA2C02E9C600C04F68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D27052C02ED7900C04F68 /* WatchConnectivity.framework */,
+				3B5D26FB2C02E9C600C04F68 /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B5D26BE2C02E14A00C04F68 /* HappyGhost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5D26E32C02E14C00C04F68 /* Build configuration list for PBXNativeTarget "HappyGhost" */;
+			buildPhases = (
+				3B5D26BB2C02E14A00C04F68 /* Sources */,
+				3B5D26BC2C02E14A00C04F68 /* Frameworks */,
+				3B5D26BD2C02E14A00C04F68 /* Resources */,
+				3B5D26E22C02E14C00C04F68 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5D26D22C02E14B00C04F68 /* PBXTargetDependency */,
+			);
+			name = HappyGhost;
+			productName = HappyGhost;
+			productReference = 3B5D26BF2C02E14A00C04F68 /* HappyGhost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B5D26CE2C02E14B00C04F68 /* HappyGhost Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5D26DF2C02E14C00C04F68 /* Build configuration list for PBXNativeTarget "HappyGhost Watch App" */;
+			buildPhases = (
+				3B5D26CB2C02E14B00C04F68 /* Sources */,
+				3B5D26CC2C02E14B00C04F68 /* Frameworks */,
+				3B5D26CD2C02E14B00C04F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HappyGhost Watch App";
+			productName = "HappyGhost Watch App";
+			productReference = 3B5D26CF2C02E14B00C04F68 /* HappyGhost Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B5D26B72C02E14A00C04F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3B5D26BE2C02E14A00C04F68 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3B5D26CE2C02E14B00C04F68 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 3B5D26BA2C02E14A00C04F68 /* Build configuration list for PBXProject "HappyGhost" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B5D26B62C02E14A00C04F68;
+			productRefGroup = 3B5D26C02C02E14A00C04F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B5D26BE2C02E14A00C04F68 /* HappyGhost */,
+				3B5D26CE2C02E14B00C04F68 /* HappyGhost Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B5D26BD2C02E14A00C04F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5D26CA2C02E14B00C04F68 /* Preview Assets.xcassets in Resources */,
+				3B5D26C72C02E14B00C04F68 /* Assets.xcassets in Resources */,
+				3B5D26F92C02E7F400C04F68 /* info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5D26CD2C02E14B00C04F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5D26DC2C02E14C00C04F68 /* Preview Assets.xcassets in Resources */,
+				3B5D26D92C02E14C00C04F68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B5D26BB2C02E14A00C04F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5D26FD2C02E9EE00C04F68 /* LocateView.swift in Sources */,
+				3B5D27022C02EB9000C04F68 /* WatchConnector.swift in Sources */,
+				3B5D26FE2C02E9EE00C04F68 /* CatchView.swift in Sources */,
+				3B5D26FF2C02E9EE00C04F68 /* UserWon.swift in Sources */,
+				3B5D27002C02E9EE00C04F68 /* UserLose.swift in Sources */,
+				3B5D26F52C02E47900C04F68 /* LocateHPView.swift in Sources */,
+				3B5D26F32C02E44000C04F68 /* IBeaconDetector.swift in Sources */,
+				3B5D26C52C02E14A00C04F68 /* ContentView.swift in Sources */,
+				3B5D26C32C02E14A00C04F68 /* HappyGhostApp.swift in Sources */,
+				3B5D26F72C02E49B00C04F68 /* CatchHPView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5D26CB2C02E14B00C04F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5D26EF2C02E35C00C04F68 /* UserWon.swift in Sources */,
+				3B5D26ED2C02E33500C04F68 /* CatchView.swift in Sources */,
+				3B5D26EB2C02E2F500C04F68 /* LocateView.swift in Sources */,
+				3B5D26F12C02E3A900C04F68 /* UserLose.swift in Sources */,
+				3B5D26E72C02E28600C04F68 /* SplashScreen.swift in Sources */,
+				3B5D26D72C02E14B00C04F68 /* ContentView.swift in Sources */,
+				3B5D26E92C02E2B400C04F68 /* ReadyView.swift in Sources */,
+				3B5D27042C02ECD700C04F68 /* WatchToiOSConnector.swift in Sources */,
+				3B5D26D52C02E14B00C04F68 /* HappyGhostApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B5D26D22C02E14B00C04F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B5D26CE2C02E14B00C04F68 /* HappyGhost Watch App */;
+			targetProxy = 3B5D26D12C02E14B00C04F68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B5D26DD2C02E14C00C04F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B5D26DE2C02E14C00C04F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3B5D26E02C02E14C00C04F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyGhost Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = XCBP8Y6THA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HappyGhost;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.vira-example-code.HappyGhost";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-example-code.HappyGhost.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		3B5D26E12C02E14C00C04F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyGhost Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = XCBP8Y6THA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HappyGhost;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.vira-example-code.HappyGhost";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-example-code.HappyGhost.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		3B5D26E42C02E14C00C04F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyGhost/Preview Content\"";
+				DEVELOPMENT_TEAM = XCBP8Y6THA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HappyGhost;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your app needs access to your location to provide personalized services when the app is in use.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your app needs access to your location to provide personalized services when the app is in use.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-example-code.HappyGhost";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B5D26E52C02E14C00C04F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyGhost/Preview Content\"";
+				DEVELOPMENT_TEAM = XCBP8Y6THA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HappyGhost;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your app needs access to your location to provide personalized services when the app is in use.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your app needs access to your location to provide personalized services when the app is in use.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-example-code.HappyGhost";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B5D26BA2C02E14A00C04F68 /* Build configuration list for PBXProject "HappyGhost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5D26DD2C02E14C00C04F68 /* Debug */,
+				3B5D26DE2C02E14C00C04F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5D26DF2C02E14C00C04F68 /* Build configuration list for PBXNativeTarget "HappyGhost Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5D26E02C02E14C00C04F68 /* Debug */,
+				3B5D26E12C02E14C00C04F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5D26E32C02E14C00C04F68 /* Build configuration list for PBXNativeTarget "HappyGhost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5D26E42C02E14C00C04F68 /* Debug */,
+				3B5D26E52C02E14C00C04F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B5D26B72C02E14A00C04F68 /* Project object */;
+}
